@@ -1,0 +1,345 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: none;
+	border: none;
+	margin-bottom: 0px;
+	
+}
+#logo-img{
+	background:url("C:/Users/erfan/Downloads/picture/gpl/1.png") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px; 
+	cursor: pointer;
+}
+.navber-brand{
+	padding-top:25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	text-shadow: 1px 1px 1px #222;
+	line-height:0.75; 
+
+}
+a:hover, a:focus{
+    text-decoration: none;
+    }
+.navbar-brand span{
+	color: #222;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-left:15px;
+	
+}
+#nav-list{
+	margin: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align:center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#nav-list a div{
+	color: #557c3e;
+	text-transform: uppercase;
+	
+	padding-right: 15px;
+	font-size: .7em;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+ 
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -25px;
+	margin-bottom: 10px;
+}
+
+#bs-example-navbar-collapse-1 a{
+	font-size: 1.2em;
+}
+#bs-example-navbar-collapse-1 a span{
+	font-size: 1em;
+	margin-right: 10px;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #3F0C1F;
+}
+
+#menu-tile{
+	background: url("C:/Users/erfan/Downloads/study/html/week 3/before/menu2.jpg")no-repeat;
+	background-position: center;
+}
+#specials-tile{
+	background: url("C:/Users/erfan/Downloads/study/html/week 3/before/unnamed.jpg")no-repeat;
+	background-position: center;
+
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	opacity: .7;
+	text-align: center;
+}
+#menu-tile span:hover, #specials-tile span:hover, #map-tile span:hover{
+	box-shadow: 5px 10px 15px 10px #cccccc;
+    background-color: #cccc;
+}
+
+.panel-footer{
+	background-color: #222;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 35px
+	border-top:0;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+#hours,#address{
+	line-height: 2;
+}
+#testimonials{
+	font-style: italic;
+	font-size: .9em;
+}
+#hours > span,#address > span,#testimonials  span{
+	font-size: 1.3em
+}
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8
+}
+
+.text-right{
+	font-size: .8em;
+}
+.catagory-tile{
+	position: relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+	border-radius:10px;
+}
+.catagory-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background: #000;
+	color: #fff;
+	opacity: .7;
+	
+}
+.catagory-tile span:hover{
+	box-shadow: 5px 10px 15px 10px #cccccc;
+	background-color: #cccc;
+
+}
+.catagory-tile:hover{
+	box-shadow: 0px 1px 5px 1px #cccccc;
+	background-color: #cccc;
+
+}
+#menu-catagories-title + div{
+margin-bottom: 50px;
+}
+
+.menu-item-tile{
+	margin-bottom: 25px;
+}
+.menu-item-tile .menu-price{
+	font-size: 1.1em;
+	text-align: center;
+
+}
+.menu-item-tile .menu-price span{
+	font-size: .8em;
+}
+.menu-img {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	max-height: 150px;
+	max-width: 250px;
+	padding:0;
+	margin-right: -25px;
+	margin-left: auto;
+	margin-bottom: 20px;
+
+
+}
+.menu-img div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #557c3e;
+	text-align: center;
+}
+h3{
+	margin-top: 0px;
+
+}
+.menu-img-description p{
+	font-size: .9em;
+	font-style: italic;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+	.navber-brand{
+	padding-top:15px;
+	height: 80px;
+}
+.navbar-brand h1{
+	font-size: 5vw;
+	margin-top: 5px;
+	margin-bottom: 2.5px;
+	
+
+}
+.navbar-brand span{
+	font-size: .6em;
+	text-transform: uppercase;
+	
+}
+img{
+	width: 100%;
+}
+.container .jumbotron{
+   
+	   margin-top: 15px;
+	   padding: 0px;
+
+	  	
+	}
+
+#menu-tile, #specials-tile{
+	width: 360px;
+	margin: 0 auto 15px;
+}
+
+a:hover, a:focus{
+    text-decoration: none;
+    }
+#bs-example-navbar-collapse-1 a{
+	font-size: 1.2em;
+}
+#bs-example-navbar-collapse-1 a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+
+.panel-footer{
+	text-align: center;
+}
+.menu-img-description{
+	text-align: center;
+	margin-top: 30px;
+}
+.menu-img{
+	margin: auto;
+}
+hr {
+	width: 90%;
+}
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+	#back{
+	
+		background: url("C:/Users/erfan/Downloads/study/html/week 3/before/resturant.jpg") no-repeat center;
+	    height: 432px;
+	}
+	.container .jumbotron{
+       background: #61122f;
+	   margin-top: 30px;
+       margin-left: 0px;
+	   padding: 0;
+	   
+	 
+	
+	}
+
+}
+@media(min-width:992px) and (max-width: 1199px){
+#back{
+	
+		background: url("C:/Users/erfan/Downloads/study/html/week 3/before/resturant.jpg") no-repeat center;
+	    height: 560px;
+	  
+	   margin-top: 15px;
+
+	
+	}
+}
+@media(min-width: 1200px){
+	.container #back{
+	
+		background: url("C:/Users/erfan/Downloads/study/html/week 3/before/resturant5.jpg") no-repeat center;
+	    height: 675px;
+	   box-shadow: 5px 10px 15px 10px #cccccc;
+	   margin-top: 15px;
+	
+	}
+
+}
